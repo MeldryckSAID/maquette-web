@@ -1,0 +1,29 @@
+.images {
+	margin:0;
+	padding:0;
+	height: 422px;
+	width:2250px;
+}
+
+.images li {
+	float:left;
+	width:400px;
+	height:400px;
+	margin:0;
+	padding:0;
+	list-style:none;
+	color:white;
+	text-align:center;
+	background:rgba(255, 255, 255, 0);
+    
+}
+
+/* La div carrousel n'affiche que l'élément Reference*/
+.carrousel {
+	width:500px;
+	height:430px;
+	overflow-x:none;
+    overflow-y: scroll;
+    background-color: black;
+
+}

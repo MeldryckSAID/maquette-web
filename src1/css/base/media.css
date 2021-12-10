@@ -1,0 +1,13 @@
+img{
+    max-width: 100%;
+    height:auto;
+}
+
+figure {
+    margin: 30px;
+  }
+  
+  figcaption {
+    font-size: var(--text-sm);
+    color: var(--gray-600);
+  }

@@ -1,0 +1,25 @@
+.header {
+   
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+
+    justify-content: space-between;
+    min-height: 80px;
+  }
+  
+  .header__start {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header__end {
+    display: flex;
+  }
+
+.titre{
+font-size: large;
+}
+

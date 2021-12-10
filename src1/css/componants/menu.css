@@ -1,0 +1,31 @@
+.menu {
+    visibility: hidden;
+    position: fixed;
+  }
+  
+  .menu-btn {
+    background: none;
+    width: 30px;
+    -webkit-appearance: none;
+    appearance: none;
+    border: none;
+    position: relative;
+  }
+  
+  .menu-btn__bar,
+  .menu-btn__bar::before,
+  .menu-btn__bar::after {
+    content: "";
+    width: 100%;
+    background-color: var(--gray-black);
+    height: 2px;
+    position: absolute;
+    left: 0;
+    z-index: 2;
+  }
+  .menu-btn__bar::before {
+    top: -10px;
+  }
+  .menu-btn__bar::after {
+    top: 10px;
+  }

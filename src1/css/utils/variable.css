@@ -1,0 +1,28 @@
+:root{
+   /* Color styles */
+--orange-fond: rgba(189, 110, 35, 1);
+--gris--fond: rgba(95, 97, 114, 1);
+--peche: rgba(222, 197, 147, 1);
+--orange-pastel: rgba(198, 137, 66, 1);
+--jaune-pale: rgba(241, 209, 95, 1);
+--rouge: rgba(183, 50, 8, 1);
+--noir: rgba(0, 0, 0, 1);
+--blanc: rgba(255, 255, 255, 1);
+--blanc-cassé : rgba(255, 240, 229, 1);
+--peche-transpa: rgba(222, 197, 147, 0.6700000166893005);
+--mots-complexe: rgba(183, 50, 8, 1);
+
+/* Text-size styles */
+--poppins: 14px
+
+   /*Font-family styles*/
+   --font-mono: 'Space Mono', monospace;
+   --font-sans-serif: 'Mulish', sans-serif;
+ 
+   /* Espaces */
+   --space1x: 8px;
+   --space2x: 16px;
+   --space3x: 24px;
+   --space4x: 48px;
+}
+ 

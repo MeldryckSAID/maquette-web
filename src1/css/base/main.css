@@ -1,0 +1,71 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  font-family: var(--font-sans-serif);
+  font-size: var(--text-md);
+  line-height: 1.6;
+  background-color: var(--black);
+}
+
+h1, h2 {
+  font-family: var(--font-mono);
+  font-weight: normal;
+}
+
+h1 {
+  font-size: var(--title-xxl);
+}
+
+h2 {
+  font-size: var(--title-xl);
+
+}
+
+h3 {
+  line-height: 1.4;
+}
+
+.carrousel {
+  width: 700px;
+  margin: 0 auto 20px;
+  text-align: center;
+}
+
+.carrousel .photos {
+  position: relative;
+  height: 433px;
+}
+
+.carrousel .photos img {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.carrousel .photos img.shown {
+  opacity: 1;
+}
+
+.prev:before,
+.next:before {
+color: #fff;
+font-size: 100px;
+position: absolute;
+top: 35%;
+cursor: pointer;
+}
+
+.prev:before {
+content: '<';
+left: 0;
+}
+
+.next:before {
+content: '>';
+right: 0;
+}
