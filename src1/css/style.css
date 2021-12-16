@@ -7,6 +7,7 @@
 @import url("base/media.css");
 @import url("base/icon.css");
 @import url("base/gabarit.css");
+@import url("componants/menu.css");
 
 /* Utils */
 @import url("utils/variable.css");

@@ -3,11 +3,12 @@
 *::after {
   box-sizing: border-box;
 }
-body {
+.body {
   font-family: var(--font-sans-serif);
   font-size: var(--text-md);
   line-height: 1.6;
-  background-color: var(--black);
+  background-color: var(--blanc-cassé  rgba(255, 240, 229, 1));
+
 }
 
 h1, h2 {
@@ -68,4 +69,13 @@ left: 0;
 .next:before {
 content: '>';
 right: 0;
+}
+
+#triangle {
+  width: 0;
+  height: 0;
+  border-top: 18px solid transparent;
+  border-bottom: 18px solid transparent;
+  border-left: 30px solid var(--peche-transpa rgba(222, 197, 147, 0.6700000166893005));
+  
 }
