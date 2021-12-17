@@ -13,11 +13,10 @@
 --mots-complexe: rgba(183, 50, 8, 1);
 
 /* Text-size styles */
---poppins: 14px
+--Poppins: 14px;
 
    /*Font-family styles*/
-   --font-mono: 'Space Mono', monospace;
-   --font-sans-serif: 'Mulish', sans-serif;
+   --font-main:'Poppins',sans-serif;
  
    /* Espaces */
    --space1x: 8px;
