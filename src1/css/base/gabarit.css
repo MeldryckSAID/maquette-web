@@ -2,7 +2,7 @@
 	margin:0;
 	padding:0;
 	height: 422px;
-	width:2250px;
+	width:2000px;
 }
 
 .images li {
@@ -20,7 +20,7 @@
 
 /* La div carrousel n'affiche que l'élément Reference*/
 .carrousel {
-	width:500px;
+	width:auto;
 	height:430px;
 	overflow-x:none;
     overflow-y: scroll;

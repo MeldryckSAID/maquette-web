@@ -14,9 +14,12 @@
 
 /* Text-size styles */
 --Poppins: 14px;
+--titre:25px
+--sous-titre:18
 
    /*Font-family styles*/
    --font-main:'Poppins',sans-serif;
+   --font-h:'Poppins','bold'
  
    /* Espaces */
    --space1x: 8px;

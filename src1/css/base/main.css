@@ -4,23 +4,23 @@
   box-sizing: border-box;
 }
 body {
-  font-family: var(--font-main);
+  font-family: var(--Poppins);
   font-size: var(--text-md);
   line-height: 1.6;
   
 }
 
 h1, h2 {
-  font-family: var();
+  font-family: var( --font-h);
   font-weight: normal;
 }
 
 h1 {
-  font-size: var(--title-xxl);
+  font-size: var(--titre);
 }
 
 h2 {
-  font-size: var(--title-xl);
+  font-size: var(--sous-titre);
 
 }
 
@@ -73,11 +73,3 @@ content: '>';
 right: 0;
 }
 
-#triangle {
-  width: 0;
-  height: 0;
-  border-top: 18px solid transparent;
-  border-bottom: 18px solid transparent;
-  border-left: 30px solid var(--peche-transpa rgba(222, 197, 147, 0.6700000166893005));
-  
-}

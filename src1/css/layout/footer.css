@@ -1,0 +1,8 @@
+footer{
+    background-color: var(--peche-transpa);
+    color: var(--noir);
+}
+h2{
+    font-size: var(--sous-titre);
+    font-family: var(--font-h);
+}
