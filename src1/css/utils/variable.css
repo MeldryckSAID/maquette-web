@@ -13,13 +13,13 @@
 --mots-complexe: rgba(183, 50, 8, 1);
 
 /* Text-size styles */
---Poppins: 14px;
+--texte: 14px;
 --titre:25px
 --sous-titre:18
 
    /*Font-family styles*/
    --font-main:'Poppins',sans-serif;
-   --font-h:'Poppins','bold'
+   --font-h:'Poppins','SemiBold'
  
    /* Espaces */
    --space1x: 8px;

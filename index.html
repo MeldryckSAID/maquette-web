@@ -5,53 +5,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://animejs.com/lib/anime.min.js"></script>
+    <script defer="" src="https://unpkg.com/alpinejs@3.4.2/dist/cdn.min.js"></script>
 	<script src="./src1/asset/fonction.js"></script>
     <title>Acceuil</title>
+
     <link rel="stylesheet" href="src1/css/style.css">
 </head>
-<body>
-    <div class="ac"> 
+<body class= " ">
+    
     <header class="header"> 
         <a class="header__start" href="index.html"><img src="icn/logo.svg" alt="Logo du site web"> </a>
            
     <H1 class="titre">POP-Féminism</H1>
-    <button class="header__end">
-        <img src="icn/menu.svg" alt="menu">
-     </button>
-   
-    <nav>
-       
-            <ul class="menu">
-                <li class="menu__list"><a class="menu__link" href="Femmescom&ics.html">Femmes et comics <img src="icn/type2.svg" alt="symole article"></a></li>
-                <li class="menu__list"><a class="menu__link" href="Gal.html">Gal Gadot <img src="icn/type2.svg" alt="symole article"></a></li>
-                <li class="menu__list"><a class="menu__link" href="oeuvre.html">Oeuvre <img src="icn/type2.svg" alt="symole article"></a></li>
-                <li class="menu__list"><a class="menu__link" href="#">Galerie <img src="icn/camera1.svg" alt="camera pour faire pense a la Galerie"></a></li>
-                <li class="menu__list"><a class="menu__link" href="extra.html">Extra <img src="icn/Star1.svg" alt="étoile"></a></li>
-                <li class="menu__list"><a class="menu__link" href="nous.html">A Propos <img src="icn/user.svg" alt="icone d'un utilisateur"></a></li>
-                
-            </ul>
-            <a href="index.html"> <img src="icn/fr.svg" alt="drapeau français"></a>
+ 
+    <div class="nav-toogle" onclik="document.documentElement.classList.toggle('menu-open')">
+        <div class="nav-toogle-bar"></div>
+    </div>
+
+
+    <nav class="menu" >
+            <ul>
+                <li class="menu__item"><a class="menu__link" href="Femmescom&ics.html">Femmes et comics <img src="icn/type2.svg" alt="symole article"></a></li>
+                <li class="menu__item"><a class="menu__link" href="Gal.html">Gal Gadot <img src="icn/type2.svg" alt="symole article"></a></li>
+                <li class="menu__item"><a class="menu__link" href="oeuvre.html">Oeuvre <img src="icn/type2.svg" alt="symole article"></a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Galerie <img src="icn/camera1.svg" alt="camera pour faire pense a la Galerie"></a></li>
+                <li class="menu__item"><a class="menu__link" href="extra.html">Extra <img src="icn/Star1.svg" alt="étoile"></a></li>
+                <li class="menu__item"><a class="menu__link" href="nous.html">A Propos <img src="icn/user.svg" alt="icone d'un utilisateur"></a></li>
+                 <a href="index.html"> <img src="icn/fr.svg" alt="drapeau français"></a>
             <a href="acceng.html"><img src="icn/ang.svg" alt="drapeau anglais"></a>
+            </ul>
+           
        </nav> 
-  
+ 
     </header>
+    <div class="ac"> 
+
     <main>
         <p>Merci  de visiter notre site encore jeunes
-        ici nous vous présenterons trois articles ainsi qu’une Gallerie dédier au personnages féminin et fémisites que nous évoquons. 
-    </p>
+         ici nous vous présenterons trois articles ainsi qu’une Gallerie dédier au personnages féminin et fémisites que nous évoquons. 
+        </p>
     
 
     <div class = "tweet">  
         <h4>Les femmes et les comics</h4> 
-        <p> Nous allons nous concentrer plus 
-        particulièerments sur 2 héroines de deux grandes
-        maisons d’éditions . </p>
+        <p> 
+            Nous allons nous concentrer plus 
+            particulièerments sur 2 héroines de deux grandes
+            maisons d’éditions .
+     </p>
         
         <figure>
             <img src="webp/tweet/tweet(1).webp" alt="premiere image tweet">
             <figcaption>Wonder Woman</figcaption>
         </figure>
-        <a  href="Femmescom&ics.html"> <button> lire plus</button></a>
+        <a  href="Femmescom&ics.html">  lire plus</a>
         
     </div>
 
@@ -97,9 +104,11 @@
       
 
     </div>
-</main>
     <img src="icn/Polygon1.svg" alt="touches pour remonter vers le haut">
-      
+ 
+</div>
+</main>
+    
 
     <footer>
         <h3>Contact</h3>
@@ -118,7 +127,7 @@
     </footer>
     
 
-    </div>
+    
 </body>
 
 </html>

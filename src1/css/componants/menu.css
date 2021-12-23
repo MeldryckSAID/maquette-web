@@ -1,35 +1,97 @@
-.menu {
-    visibility: hidden;
-    position: top;
-  }
-  .menu__list{
-    visibility: hidden;
-    position: top;
-  }
-  
-  .menu-btn {
-    background: none;
-    width: 30px;
-    -webkit-appearance: none;
-    appearance: none;
-    border: none;
-    position: top;
-  }
-  
-  .menu-btn__bar,
-  .menu-btn__bar::before,
-  .menu-btn__bar::after {
-    content: "";
-    width: 100%;
-    background-color: var(--gray-black);
-    height: 2px;
-    position: top;
-    left: 0;
-    z-index: 2;
-  }
-  .menu-btn__bar::before {
-    top: -10px;
-  }
-  .menu-btn__bar::after {
-    top: 10px;
-  }
+.nav-toogle{
+  /* background-color: var(--peche); */
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+.nav-toogle-bar,
+.nav-toogle-bar::before,
+.nav-toogle-bar::after
+{
+  content: "";
+  background-color: black;
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  left: 0;
+  transition: all .4s ease-in-out;
+}
+.nav-toogle-bar::before{
+
+  top: -10px; 
+}
+
+.nav-toogle-bar::after{
+  top: 10px; 
+}
+
+.menu-open .nav-toogle-bar{
+  transform: rotate(135deg);
+  background-color: white;
+
+}
+.menu-open .nav-toogle-bar::before,
+.menu-open .nav-toogle-bar::after
+{
+  transform: rotate(90deg);
+  background-color: white;
+  top: 0;
+}
+
+.menu{
+  background-color: var(--peche);
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateX(100vw);
+  transition: all .4s;
+  z-index: 1;
+}
+
+.menu-open .menu{
+  transform: translateX(0);
+}
+
+.menu-open
+.menu-open body{
+  overflow: hidden;
+}
+.menu ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 2.3rem;
+  text-transform: uppercase;
+}
+.menu li{
+  margin-bottom: 30px;
+  transform: translateX(30px);
+  opacity: 0;
+  transition: all .3s ease;
+}
+.menu a{
+  color: black;
+}
+.menu-open .menu li{
+  transform: translateX(0);
+  opacity: 1;
+}
+.menu-open .menu li:nth-child(n+1) {transition-delay: .3s; }
+.menu-open .menu li:nth-child(n+2) {transition-delay: .4s; }
+.menu-open .menu li:nth-child(n+3) {transition-delay: .5s; }
+.menu-open .menu li:nth-child(n+4) {transition-delay: .6s; }
+.menu-open .menu li:nth-child(n+5) {transition-delay: .7s; }
+.menu-open .menu li:nth-child(n+6) {transition-delay: .8s; }
+
+

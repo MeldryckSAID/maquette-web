@@ -4,8 +4,8 @@
   box-sizing: border-box;
 }
 body {
-  font-family: var(--Poppins);
-  font-size: var(--text-md);
+  font-family: var(--font-main);
+  font-size: var(--text-);
   line-height: 1.6;
   
 }
@@ -24,16 +24,21 @@ h2 {
 
 }
 
-h3 {
+h4 {
   line-height: 1.4;
 }
 p{
  font-family:var(--font-main );
+ margin: 30px;
 }
-
+.tweet{
+  background-color: var(--orange-fond);
+  flex-direction: column ;
+  
+}
 .carrousel {
   width: 700px;
-  margin: 0 auto 20px;
+  border: 60px ;
   text-align: center;
 }
 

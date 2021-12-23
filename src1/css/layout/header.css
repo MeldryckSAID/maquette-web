@@ -1,25 +1,14 @@
-.header {
+header {
    
     position: top;
     top: 0;
     left: 0;
     width: 100%;
     display: flex;
-
     justify-content: space-between;
     min-height: 80px;
-  }
-/*   
-  .header__start {
-    display: flex;
-    align-items: center;
-  }
-  
-  .header__end {
-    display: flex;
+    background-color: var(--orange-fond);
+    font-family: var(--font-h);
   }
 
-.titre{
-font-size: large;
-} */
 
