@@ -1,0 +1,19 @@
+.ac{
+    background-image:url("/webp/back/Acceuil.webp") ;
+    background-repeat: no-repeat;
+}
+.a1{
+    background-image:url("/webp/back/Article1.webp") ;
+    background-repeat: no-repeat;
+
+
+}
+.a2{
+    background-image:url("/webp/back/Article2.webp") ;
+    background-repeat: no-repeat;   
+}
+
+.a3{
+    background-image:url("/webp/back/Article3.webp") ;
+    background-repeat: no-repeat; 
+}

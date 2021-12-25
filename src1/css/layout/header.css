@@ -1,11 +1,11 @@
 header {
    
-    position: top;
+
     top: 0;
     left: 0;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     min-height: 80px;
     background-color: var(--orange-fond);
     font-family: var(--font-h);

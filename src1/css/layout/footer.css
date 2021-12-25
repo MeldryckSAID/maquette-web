@@ -1,6 +1,7 @@
 footer{
     background-color: var(--peche-transpa);
     color: var(--noir);
+    font-family: var(--font-main);
 }
 h2{
     font-size: var(--sous-titre);

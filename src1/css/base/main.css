@@ -1,45 +1,65 @@
 *,
 *::before,
-*::after {
+*::after
+ {
   box-sizing: border-box;
 }
-body {
-  font-family: var(--font-main);
-  font-size: var(--text-);
+body
+ {
+  
   line-height: 1.6;
   
 }
 
-h1, h2 {
+p
+{
+ font-family:var(--font-main );
+ margin: 20px;
+}
+
+h1 h2 
+{
   font-family: var( --font-h);
   font-weight: normal;
 }
 
-h1 {
+h1 
+{
   font-size: var(--titre);
+  
 }
 
-h2 {
+h2
+ {
   font-size: var(--sous-titre);
 
 }
 
-h4 {
+.tweet h4
+ {
+   font-family: var(--font-h);
+   font-size: var(--sous-titre);
   line-height: 1.4;
 }
-p{
- font-family:var(--font-main );
- margin: 30px;
-}
+
 .tweet{
   background-color: var(--orange-fond);
   flex-direction: column ;
+  margin: 30px;
+  padding-bottom: 30px;
   
 }
+.tweet a{
+  padding-left:190px  ;
+  padding-top: 20px;
+  color: var(--noir);
+}
+
 .carrousel {
   width: 700px;
   border: 60px ;
   text-align: center;
+  font-family: var(--font-main);
 }
 
 .carrousel .photos {
