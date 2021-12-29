@@ -5,7 +5,9 @@ header {
     left: 0;
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
     min-height: 80px;
     background-color: var(--orange-fond);
     font-family: var(--font-h);
