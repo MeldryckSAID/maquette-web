@@ -39,20 +39,32 @@ h2
  {
    font-family: var(--font-h);
    font-size: var(--sous-titre);
-  line-height: 1.4;
+   line-height: 1.4;
+   margin: 12px;
 }
 
 .tweet{
   background-color: var(--orange-fond);
-  flex-direction: column ;
-  margin: 30px;
-  padding-bottom: 30px;
+  color: var(--noir);
+  margin-top: 100px;
+  margin-bottom: 230px; 
+  height: 282px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   
+
+ 
 }
 .tweet a{
   padding-left:190px  ;
   padding-top: 20px;
   color: var(--noir);
+}
+
+.tweet figure{
+  justify-content: space-between;
+  
 }
 
 .carrousel {

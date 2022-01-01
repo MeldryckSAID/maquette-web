@@ -63,7 +63,7 @@
   transform: translateX(0);
 }
 
-.menu-open
+.menu-open,
 .menu-open body{
   overflow: hidden;
 }
