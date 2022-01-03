@@ -33,15 +33,17 @@
 
 .menu-open .nav-toogle-bar{
   transform: rotate(135deg);
-  background-color: white;
+  background-color:var(--noir);
+
 
 }
 .menu-open .nav-toogle-bar::before,
 .menu-open .nav-toogle-bar::after
 {
   transform: rotate(90deg);
-  background-color: white;
+  background-color: var(--orange-fond);
   top: 0;
+  
 }
 
 .menu{
@@ -79,9 +81,18 @@
   transform: translateX(30px);
   opacity: 0;
   transition: all .3s ease;
+  border-style:double;
+  border-width: 10px;
+  border-color: var(--noir);
+
 }
+
 .menu a{
   color: black;
+  font-size:var(--sous-titre);
+  align-items: center;
+  
+
 }
 .menu-open .menu li{
   transform: translateX(0);

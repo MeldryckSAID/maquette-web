@@ -34,6 +34,9 @@ h2
   font-size: var(--sous-titre);
 
 }
+.complex{
+  color: var(--mots-complexe);
+}
 
 .tweet h4
  {
