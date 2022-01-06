@@ -17,9 +17,10 @@
 --titre:25px;
 --sous-titre:18px;
 
+
    /*Font-family styles*/
-   --font-main:'Poppins',sans-serif;
-   --font-h:'Poppins','SemiBold';
+   --font-main:'Poppins';
+   --font-h:'Poppins';
  
    /* Espaces */
    --space1x: 8px;

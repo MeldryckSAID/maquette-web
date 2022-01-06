@@ -1,0 +1,48 @@
+
+.section {
+    margin-bottom: 40px;
+    
+}
+
+
+
+.label {
+    font-family: var(--font-main);
+    font-size: var(--texte);
+    color: var(--noir);
+    margin-left: 5%;
+    margin-bottom: 5%;
+    
+    
+}
+
+.input {
+    background-color: var(--jaune-pale);
+    border: none;
+    height: 40px;
+    width: 300px;
+    margin-left: 10%;
+    color: var(--noir);
+}
+
+.input_2 {
+    background-color: var(--orange-fond);
+    border: none;
+    height: 248px;
+    width: 280px;
+    margin-left: 10%;
+    color: var(--blanc);
+}
+
+
+.bouton_envoyer {
+    display: block;
+    font-family: var(--font-main);
+    font-size: var(texte);
+    background-color: var(--jaune-pale);
+    border-color: none;
+    height: 46px;
+    width: 80px;
+    margin: auto;
+    margin-bottom: 46px;
+}

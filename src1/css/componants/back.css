@@ -2,6 +2,7 @@
     background-image:url("/webp/back/Acceuil.webp") ;
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 .a1{
     background-image:url("/webp/back/Article1.webp") ;
@@ -14,10 +15,24 @@
     background-image:url("/webp/back/Article2.webp") ;
     background-repeat: no-repeat;   
     background-size: cover;
+    
 }
 
 .a3{
     background-image:url("/webp/back/Article3.webp") ;
     background-repeat: no-repeat; 
     background-size: cover;
+}
+
+.ex{
+    background-image:url("/webp/back/Extra.webp") ;
+    background-repeat: no-repeat; 
+    background-size: cover;
+
+}
+.no{
+    background-image:url("/webp/back/Formulaire.webp") ;
+    background-repeat: no-repeat; 
+    background-size: cover;
+
 }

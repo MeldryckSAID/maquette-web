@@ -1,0 +1,32 @@
+.carou{
+    color:var(--noir) ;
+}
+.carrousel {
+    width: 375px;
+    border: 60px ;
+    text-align: center;
+    font-family: var(--font-main);
+    
+    
+  }
+  
+  .carrousel .photos {
+    position: relative;
+    height: 433px;
+  }
+  
+  .carrousel .photos img {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    opacity: 0;
+    transition: opacity 1s;
+  }
+  
+  .carrousel .photos img.shown {
+    opacity: 1;
+  }
+  .carrousel figcaption{
+      color: var(--blanc);
+      font-weight: 600;
+  }

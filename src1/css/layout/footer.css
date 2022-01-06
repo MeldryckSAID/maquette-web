@@ -2,8 +2,24 @@ footer{
     background-color: var(--peche-transpa);
     color: var(--noir);
     font-family: var(--font-main);
+    padding: 1px;
 }
-h2{
+footer h3{
     font-size: var(--sous-titre);
     font-family: var(--font-h);
+    margin-left: 10px;
+}
+footer a{
+    color: var(--noir);
+    margin-left: 20px;
+}
+.fimg{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.img__footer{
+    display: flex;
+    justify-content: center;
+    
 }

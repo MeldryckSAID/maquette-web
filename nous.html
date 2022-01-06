@@ -19,20 +19,23 @@
 
 
     <nav class="menu">
-            <ul>
+        <ul>
                 <li class="menu__item"><a class="menu__link" href="Femmescom&ics.html">Femmes et comics <img src="icn/type2.svg" alt="symole article"></a></li>
                 <li class="menu__item"><a class="menu__link" href="Gal.html">Gal Gadot <img src="icn/type2.svg" alt="symole article"></a></li>
                 <li class="menu__item"><a class="menu__link" href="oeuvre.html">Oeuvre <img src="icn/type2.svg" alt="symole article"></a></li>
                 <li class="menu__item"><a class="menu__link" href="#">Galerie <img src="icn/camera1.svg" alt="camera pour faire pense a la Galerie"></a></li>
                 <li class="menu__item"><a class="menu__link" href="extra.html">Extra <img src="icn/Star1.svg" alt="étoile"></a></li>
                 <li class="menu__item"><a class="menu__link" href="nous.html">A Propos <img src="icn/user.svg" alt="icone d'un utilisateur"></a></li>
-                 <a href="index.html"> <img src="icn/fr.svg" alt="drapeau français"></a>
-            <a href="acceng.html"><img src="icn/ang.svg" alt="drapeau anglais"></a>
-            </ul>
-           
-       </nav> 
+              <div class="menu__flag" >   
+                <a href="index.html"> <img src="icn/fr.svg" alt="drapeau français"></a>
+                <a href="acceng.html"><img src="icn/ang.svg" alt="drapeau anglais"></a>
+            </div>
+        </ul>
+       
+   </nav>
     </header>
     <main>
+        <div class="no"> 
         <h3>A propos  de nous :</h3>
         <p>Notre but: 
 
@@ -48,47 +51,72 @@
         
         <h3>Nous Contacter</h3> <img src="icn/user.svg" alt="icon user"> <br>
         
-        <label for="name">Nom:</label>
+        <div class="section">
+            <div class="label"><label for="name">Nom:</label></div> 
+ 
+             <input class="input" type="text" id="name" name="name" required
+             minlength="4" maxlength="20" size="10">
+         </div>
+ 
+         <div class="section">
+            <div class="label"><label for="name">Prénom:</label></div> 
+ 
+             <input class="input"  type="text" id="name" name="name" required
+             minlength="4" maxlength="20" size="10">
+         </div>
+         
+ 
+         <div class="section">
+             <div class="label"><label for="name">Email:</label></div>
+ 
+             <input class="input" type="email" id="name" name="name" required
+             minlength="0" maxlength="20" size="10">
+         </div>
+     
+         <div class="section">
+             <div class="label"><label   for="name">Sujet:</label></div>
+ 
+          <input class="input"  type="text" id="name" name="name" required
+             minlength="0" maxlength="20" size="10"> 
+         </div>
+     
+         <div class="section">
+            <div class="label"><label   for="name">Messages:</label></div>
+ 
+         <textarea class="input_2"  type="text" id="name" name="name" required
+             minlength="0" maxlength="20" size="10"></textarea>
+         </div>
+ 
+         <div class="espace__boutons">
+             <button class="bouton_envoyer">
+                 envoyer
+             </button>
+         </div>
 
-        <input type="text" id="name" name="name" required
-        minlength="4" maxlength="20" size="10"
-        placeholder="dutoit">
-        
-               <br>
-              
-            <label for="name">Prénom:</label>
 
-               <input type="text" id="aname" name="name" required minlength="4" maxlength="20" size="10" placeholder="Pierre"> <br>
-
-
-                <input type="text" id="uname" name="surname"  placeholder="Dites ce dont vous avez envies "  size="30"> <br>
-            
-                <input type="submit" value="Envoyer">
-            
-        
-                <img src="icn/Polygon1.svg" alt="touches pour remonter vers le haut">
-            
-
-
-
-            </main>
-        
-        
+            </div> 
             <footer>
                 <h3>Contact</h3>
                 
                   <p>Meldryck Saïd C1</p>
                   <a href="mailto:meldryck.said@edu.univ-fcomte.fr">meldryck.said@edu.univ-fcomte.fr</a>
-                  <img src="icn/facebook.svg" alt="https://facebook.com">
-                  <img src="icn/instagram.svg" alt="https://instagram.com">
+                  <div class="fimg">
+                      <img  src="icn/facebook.svg" alt="https://facebook.com">
+                     <img src="icn/instagram.svg" alt="https://instagram.com"> </div>
+                  
                   <h3>Mention légal</h3>
                   <p>
                     “ projet réalisé dans le cadre d’un exercice
                     pédagogique au département <a href="mmimontbeliard.com//">MMi de Montbéliard</a>
                     “
                   </p>
-                  <img src="icn/logommi1.svg" alt="logo département">
+                  <div class="img__footer"><img  src="icn/logommi1.svg" alt="logo département"> </div>
+                  
             </footer>
+            </main>
+        
+        
+           
             
 </body>
 </html>
