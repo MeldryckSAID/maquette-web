@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="src/asset/fonction.js"></script>
+    <script src="https://unpkg.com/alpinejs@3.2.2/dist/cdn.min.js"></script>
+	<script src="https://animejs.com/lib/anime.min.js"></script>
+    <link rel="stylesheet" href="src1/css/style.css">
+    <title>Galerie</title>
+</head>
+<body>
+    <div class="g"> 
+    <header class="header"> 
+        <a class="header__start" href="index.html"><img src="icn/logo.svg" alt="Logo du site web"> </a>
+         <div class="titre"><h1>POP-Féminism</h1></div>     
+       
+        <div class="nav-toogle"  onclick="document.documentElement.classList.toggle('menu-open')">
+           <div class="nav-toogle-bar"></div>
+       </div>
+   
+   
+       <nav class="menu">
+               <ul>
+                       <li class="menu__item"><a class="menu__link" href="Femmescom&ics.html">Femmes et comics <img src="icn/type2.svg" alt="symole article"></a></li>
+                       <li class="menu__item"><a class="menu__link" href="Gal.html">Gal Gadot <img src="icn/type2.svg" alt="symole article"></a></li>
+                       <li class="menu__item"><a class="menu__link" href="oeuvre.html">Oeuvre <img src="icn/type2.svg" alt="symole article"></a></li>
+                       <li class="menu__item"><a class="menu__link" href="galerie.html">Galerie <img src="icn/camera1.svg" alt="camera pour faire pense a la Galerie"></a></li>
+                       <li class="menu__item"><a class="menu__link" href="extra.html">Extra <img src="icn/Star1.svg" alt="étoile"></a></li>
+                       <li class="menu__item"><a class="menu__link" href="nous.html">A Propos <img src="icn/user.svg" alt="icone d'un utilisateur"></a></li>
+                     
+               </ul>
+               <div class="menu__flag" >   
+                       <a href="index.html"> <img src="icn/fr.svg" alt="drapeau français"></a>
+                       <a href="acceng.html"><img src="icn/ang.svg" alt="drapeau anglais"></a>
+               </div>
+              
+          </nav> 
+          </header>
+          <main>
+            <h3>Galerie :</h3>
+
+            <figure class="fig__galerie"> 
+                <div class="visionneuse"> 
+                    <div class="fig__img"
+                    x-on:mouseover="monterLegende('capt1');";
+                    x-on:mouseleave="descendreLegende('capt1');">
+                <img src="/webp/galeri/larson.webp" alt="Brie Larson">
+                 <p class="texte__js">
+                    Brie Larson
+                </p>
+                
+            </div>
+            </figure>
+            <ul class="ul__gal">
+                <li>Brie Larson</li>
+                <li>1er octobre 1983</li>
+                <li>Captain Marvel 2019</li>
+            </ul>
+
+            <figure class="fig__galerie">
+                <div class="visionneuse">
+                    <div class="fig__img"
+                    x-on:mouseover="monterLegende('capt1');"
+                    x-on:mouseleave="descendreLegende('capt1');">
+                    <img src="webp/galeri/marvel.webp" alt="Cap Marvel">
+                    </div>
+                 <p class="texte__js">
+                    Carol Denvers
+                </p>
+                </div>
+            </figure>
+             <ul class="ul__gal">
+                <li> Captain marvel</li>
+                <li>Miss Marvel</li>
+            </ul>
+
+            <figure class="fig__galerie">
+                <div class="visionneuse">
+                    <div class="fig__img"
+                    x-on:mouseover="monterLegende('capt1');"
+                    x-on:mouseleave="descendreLegende('capt1');">
+                    <img src="/webp/galeri/ww.webp" alt="Wonder Woman">
+                    </div>
+                     <p class="texte__js">
+                    Diana Prince
+                </p>
+                </div>
+            </figure>
+            <ul class="ul__gal">
+                <li>Diana of Themyscira</li>
+                <li>Wonder Woman</li>
+                <li>Princesse-déesse </li>
+                <li>Amazone</li>
+            </ul>
+
+            <figure class="fig__galerie">
+                <div class="visionneuse">
+                    <div class="fig__img"
+                    x-on:mouseover="monterLegende('capt1');"
+                    x-on:mouseleave="descendreLegende('capt1');">
+                <img src="/webp/galeri/eli.webp" alt="Elizabeth Holloway Marston">
+                </div>
+                <p class="texte__js">
+                    Elizabeth Holloway Marston
+                </p>
+                </div>
+            </figure>
+            <ul class="ul__gal">
+                <li>20 février 1893-27 mars 1993</li>
+                <li>Femme de William Moulton </li>
+                <li>Avocate psychologue</li>
+                <li> Source Inspiration de wonder woman</li>
+            </ul>
+
+            <figure class="fig__galerie">
+                <div class="visionneuse">
+                    <div class="fig__img"
+                    x-on:mouseover="monterLegende('capt1');"
+                    x-on:mouseleave="descendreLegende('capt1');">
+                    <img src="/webp/galeri/gadot.webp" alt="Gal gadot">
+                    </div>
+                    <p class="texte__js">
+                        Gal Gadot
+                    </p>
+                </div>
+            </figure>
+            <ul class="ul__gal">
+                <li>30 avril 1985</li>
+                <li>Nouvelle wonder woman 2018</li>
+                <li>Actrice productrice mannequin</li>
+            </ul>
+
+          </main>
+</div>
+</body>
+</html>

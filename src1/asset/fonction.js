@@ -36,9 +36,49 @@ function carrouselBasic() {
     });
 }
 
-function retour(){ 
-    document.querySelector('retour')
-	.addEventListener('click', function (retour) {
-  	window.scrollTo(0, 0);
-  }).play;
-}
+ function monterLegende(c) 
+     let texte13 = document.querySelector("."+c);
+     texte13.style.display = "block";
+     return anime({
+         targets: "."+c,
+         translateY: '-5em',
+         autoplay: false,
+         easing: 'linear',      
+         duration: 200
+     }).pla
+ 
+ function descendreLegende(c) {
+     let txt1 = document.querySelector("."+c);
+     txt1.style.display = "none";
+     return anime({
+         targets: "."+c,
+         translateY: '0',
+         autoplay: false,
+         easing: 'linear',      
+         duration: 200
+     }).play
+
+ }
+
+// function monterLegende() {
+//     let texte13 = document.querySelector(".texte__js");
+//     texte13.style.display = 'block';
+//     return anime({
+//         targets: texte13,
+//         translateY: '-5em',
+//         autoplay: false,
+//         easing: 'linear',
+//         duration: 200
+//     }).play;
+// }
+// function descendreLegende() {
+//     let txt1 = document.querySelector(".");
+//     txt1.style.display = "none";
+//     return anime({
+//         targets: '.texte__js',
+//         translateY: '5em',
+//         autoplay: false,
+//         easing: 'linear',
+//         duration: 200
+//     }).play;
+// }

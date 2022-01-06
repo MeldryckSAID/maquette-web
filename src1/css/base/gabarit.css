@@ -27,3 +27,33 @@
     background-color: black;
 
 }
+
+.texte__js {
+    font-family: var(--font_h);
+   background-color: var(--orange-fond);
+	color: var(--noir);
+    font-size: 10px;
+    font-size: var(--texte);
+    position: relative;
+    width: 100%;
+    padding: 0px;
+    z-index: 3;
+    line-height: 5em;
+    top: 0;
+    display: none;
+   
+}
+.visionneuse {
+    grid-column: 2;
+    grid-row: 2;
+    padding: 1px;
+    position: relative;
+    overflow: hidden;
+	
+
+	
+}
+.fig__img {
+    z-index: 0;
+    position: relative;
+}

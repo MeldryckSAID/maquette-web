@@ -56,6 +56,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   transform: translateX(100vw);
   transition: all .4s;
   z-index: 1;
@@ -116,6 +117,11 @@
   justify-content: space-between;
   transform: translateX(30px);
   opacity: 0;
+  margin: 0px;
+}
+.menu__flag img{
+  margin-left: 30px;
+  margin-right: 30px;
 }
 .menu-open .menu__flag{
   transform: translateX(0);

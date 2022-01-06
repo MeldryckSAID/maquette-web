@@ -36,3 +36,9 @@
     background-size: cover;
 
 }
+.g{
+    background-image:url("/webp/back/Galerie.webp") ;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    
+}

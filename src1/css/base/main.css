@@ -31,9 +31,20 @@ h1
   
 }
 
-h2 h3 h4
+h2 ,h3
  {
   font-size: var(--sous-titre);
+  width: 375px;
+  height: 50px;
+  background-color: var(--orange-fond);
+  font-size: 17px;
+  font-family: var(--font-main);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  margin-left:0px ;
+  color: var(--noir);
   
 
 }
@@ -108,3 +119,18 @@ h2 h3 h4
   
    
 }	
+.fig__img{
+  display: flex;
+  justify-content: center;
+
+}
+.ul__gal{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  font-family: var(--font-h);
+  font-size: var();
+
+}
