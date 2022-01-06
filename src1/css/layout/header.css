@@ -11,6 +11,7 @@ header {
     min-height: 80px;
     background-color: var(--orange-fond);
     font-family: var(--font-h);
+    z-index: 1;
   }
 
 

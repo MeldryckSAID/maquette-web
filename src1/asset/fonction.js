@@ -35,3 +35,10 @@ function carrouselBasic() {
         lesimg.style.transform = 'translateX(-'+cpt*largeurImg+'px)';
     });
 }
+
+function retour(){ 
+    document.querySelector('retour')
+	.addEventListener('click', function (retour) {
+  	window.scrollTo(0, 0);
+  }).play;
+}

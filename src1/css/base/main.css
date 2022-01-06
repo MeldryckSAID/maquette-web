@@ -15,14 +15,14 @@ body
 p
 {
  font-family:var(--font-main );
- margin: 20px;
+ margin: 30px;
 }
 
-h1 h2 h3 h4
+h1, h2, h3, h4
 {
   font-family: var( --font-h);
-  margin-left: 10px;
-  font-weight: normal;
+  margin-left: 25px;
+  font-weight: 800;
 }
 
 h1 
@@ -93,5 +93,18 @@ h2 h3 h4
  
 }
 
-
-
+.re {
+  position: fixed;
+  width: 20px;
+  height: 20px;
+  bottom: 50px;
+  left: 5px;
+ 
+  
+  
+}
+.re img {
+  width: 25px;
+  
+   
+}	
