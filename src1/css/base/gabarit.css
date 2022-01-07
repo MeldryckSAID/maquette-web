@@ -109,3 +109,53 @@
     position: relative;
     
 }
+
+.carrousel-grid {
+    display: grid;                                    
+    grid-template-columns: 1fr 2fr 1fr;                
+    row-gap: 0px;                                    
+    column-gap: 0px;                                
+    grid-auto-rows: minmax(100px, auto);
+}
+
+
+.carrousel6 {
+    grid-column: 2;
+    grid-row: 2;
+    width: 375px;
+    padding: 0px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.images6 {
+    width: 375px;
+    height: 575px;
+    left:0;
+   
+}  
+
+.images6 img {
+    width: 375px;
+    height: 575px;
+}
+
+.carou6{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+
+}
+
+/* .carou6 {
+    
+	width:300px;
+	height:307px;
+	overflow-y:none;
+    overflow-x: scroll;
+  
+}  */
+
+
