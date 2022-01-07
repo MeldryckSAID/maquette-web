@@ -36,49 +36,149 @@ function carrouselBasic() {
     });
 }
 
- function monterLegende(c) 
-     let texte13 = document.querySelector("."+c);
-     texte13.style.display = "block";
+//  function monterLegende(c) 
+//      let texte13 = document.querySelector("."+c);
+//      texte13.style.display = "block";
+//      return anime({
+//          targets: "."+c,
+//          translateY: '-5em',
+//          autoplay: false,
+//          easing: 'linear',      
+//          duration: 200
+//      }).pla
+ 
+//  function descendreLegende(c) {
+//      let txt1 = document.querySelector("."+c);
+//      txt1.style.display = "none";
+//      return anime({
+//          targets: "."+c,
+//          translateY: '0',
+//          autoplay: false,
+//          easing: 'linear',      
+//          duration: 200
+//      }).play
+
+//  }
+// 1
+ function monterLegende() {
+     let texte13 = document.querySelector(".texte__js1");
+     texte13.style.display = 'block';
      return anime({
-         targets: "."+c,
+         targets: texte13,
          translateY: '-5em',
          autoplay: false,
-         easing: 'linear',      
+         easing: 'linear',
          duration: 200
-     }).pla
- 
- function descendreLegende(c) {
-     let txt1 = document.querySelector("."+c);
-     txt1.style.display = "none";
-     return anime({
-         targets: "."+c,
-         translateY: '0',
-         autoplay: false,
-         easing: 'linear',      
-         duration: 200
-     }).play
-
+     }).play;
  }
 
-// function monterLegende() {
-//     let texte13 = document.querySelector(".texte__js");
-//     texte13.style.display = 'block';
-//     return anime({
-//         targets: texte13,
-//         translateY: '-5em',
-//         autoplay: false,
-//         easing: 'linear',
-//         duration: 200
-//     }).play;
-// }
-// function descendreLegende() {
-//     let txt1 = document.querySelector(".");
-//     txt1.style.display = "none";
-//     return anime({
-//         targets: '.texte__js',
-//         translateY: '5em',
-//         autoplay: false,
-//         easing: 'linear',
-//         duration: 200
-//     }).play;
-// }
+ function descendreLegende() {
+
+    
+     return anime({
+         targets: '.texte__js1',
+         translateY: '5em',
+         autoplay: false,
+         easing: 'linear',
+         duration: 200
+     }).play;
+ }
+
+ //2
+ function monterLegende2() {
+    let texte13 = document.querySelector(".texte__js2");
+    texte13.style.display = 'block';
+    return anime({
+        targets: texte13,
+        translateY: '-5em',
+        autoplay: false,
+        easing: 'linear',
+        duration: 200
+    }).play;
+}
+
+function descendreLegende2() {
+
+   
+    return anime({
+        targets: '.texte__js2',
+        translateY: '5em',
+        autoplay: false,
+        easing: 'linear',
+        duration: 200
+    }).play;
+}
+//3
+function monterLegende3() {
+    let texte13 = document.querySelector(".texte__js3");
+    texte13.style.display = 'block';
+    return anime({
+        targets: texte13,
+        translateY: '-5em',
+        autoplay: false,
+        easing: 'linear',
+        duration: 200
+    }).play;
+}
+
+function descendreLegende3() {
+
+   
+    return anime({
+        targets: '.texte__js3',
+        translateY: '5em',
+        autoplay: false,
+        easing: 'linear',
+        duration: 200
+    }).play;
+}
+
+//4
+function monterLegende4() {
+    let texte13 = document.querySelector(".texte__js4");
+    texte13.style.display = 'block';
+    return anime({
+        targets: texte13,
+        translateY: '-5em',
+        autoplay: false,
+        easing: 'linear',
+        duration: 200
+    }).play;
+}
+
+function descendreLegende4() {
+
+   
+    return anime({
+        targets: '.texte__js4',
+        translateY: '5em',
+        autoplay: false,
+        easing: 'linear',
+        duration: 200
+    }).play;
+}
+
+//5
+function monterLegende5() {
+    let texte13 = document.querySelector(".texte__js5");
+    texte13.style.display = 'block';
+    return anime({
+        targets: texte13,
+        translateY: '-6em',
+        autoplay: false,
+        easing: 'linear',
+        duration: 200
+    }).play;
+}
+
+function descendreLegende5() {
+
+   
+    return anime({
+        targets: '.texte__js5',
+        translateY: '6em',
+        autoplay: false,
+        easing: 'linear',
+        duration: 200
+    }).play;
+}

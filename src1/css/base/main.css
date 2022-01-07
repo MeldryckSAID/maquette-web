@@ -4,6 +4,10 @@
  {
   box-sizing: border-box;
 }
+html{
+  scroll-behavior: smooth;
+}
+
 body
  {
   
@@ -106,12 +110,10 @@ h2 ,h3
 
 .re {
   position: fixed;
-  width: 20px;
-  height: 20px;
+  width: 35px;
+  height: 50px;
   bottom: 50px;
   left: 5px;
- 
-  
   
 }
 .re img {
@@ -122,15 +124,36 @@ h2 ,h3
 .fig__img{
   display: flex;
   justify-content: center;
+  align-items: center;
 
 }
 .ul__gal{
   display: flex;
+  width: 100%;
+  height: auto;
   justify-content: center;
   flex-direction: column;
-  align-items: center;
+  align-content: center;
   list-style: none;
   font-family: var(--font-h);
   font-size: var();
+
+}
+.fig__galerie{
+  display: flex;
+  width: 365px;
+  height: auto;
+  justify-items: center;
+  flex-direction: column;
+  align-items: center;
+}
+.pck__galerie{
+  display: flex;
+  width: 365px;
+  height: auto;
+  justify-items: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 
 }
