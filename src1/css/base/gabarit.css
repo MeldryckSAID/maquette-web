@@ -27,7 +27,7 @@
     background-color: black;
 
 }
-
+/* affiche un texte qui monte et descend si l'on passe sur ue image */
 .texte__js1,
 .texte__js5
 {
@@ -110,6 +110,7 @@
     
 }
 
+/* Carousel auto infi suite dans js */
 .carrousel-grid {
     display: grid;                                    
     grid-template-columns: 1fr 2fr 1fr;                
@@ -149,13 +150,5 @@
 
 }
 
-/* .carou6 {
-    
-	width:300px;
-	height:307px;
-	overflow-y:none;
-    overflow-x: scroll;
-  
-}  */
 
 

@@ -4,9 +4,6 @@
  {
   box-sizing: border-box;
 }
-html{
-  scroll-behavior: smooth;
-}
 
 body
  {
@@ -35,7 +32,7 @@ h1
   
 }
 
-h2 ,h3
+h2 ,h3,h5
  {
   font-size: var(--sous-titre);
   width: 375px;
@@ -52,10 +49,11 @@ h2 ,h3
   
 
 }
+/* mots rouge */
 .complex{
   color: var(--mots-complexe);
 }
-
+/* les résumer */
 .tweet h4
  {
    font-family: var(--font-h);
@@ -64,24 +62,48 @@ h2 ,h3
    margin: 12px;
 }
 
-.tweet{
+.tweet,
+.tweet2,
+.tweet3
+{
   background-color: var(--orange-fond);
   color: var(--noir);
   margin-top: 100px;
   margin-bottom: 230px; 
-  height: 282px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   font-family: var(--font-h);
   font-size: var(--sous-titre);
 }
+.tweet{
+  height: 282px;
+}
+.tweet2{
+  height: 377px;
+}
+.tweet3{
+  height: 350px;
+}
+
 .tweet a{
   color: var(--noir);
   z-index: 0;
   left: 301px;
   top: 167px;
   font-size: var(--texte);
+
+}
+.tweet3 a{
+  color: var(--noir);
+  font-size: var(--texte);
+
+
+}
+.tweet2 a{
+  color: var(--noir);
+  font-size: var(--texte);
+
 
 }
 .tweet img{
@@ -91,6 +113,8 @@ h2 ,h3
   display: flex;
   justify-content: flex-start;
 }
+
+/* lien  */
 .lien, 
 .lien a
 {
@@ -107,7 +131,7 @@ h2 ,h3
   color: var(--noir);
  
 }
-
+/* boton scroll retour*/
 .re {
   position: fixed;
   width: 35px;
@@ -116,11 +140,18 @@ h2 ,h3
   left: 5px;
   
 }
+
+html{
+  scroll-behavior: smooth;
+}
+
 .re img {
   width: 25px;
   
    
 }	
+
+/*Page Galerie */
 .fig__img{
   display: flex;
   justify-content: center;

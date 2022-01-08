@@ -13,13 +13,12 @@ footer a{
     color: var(--noir);
     margin-left: 20px;
 }
-.fimg{
-    display: flex;
-    justify-content: center;
-    justify-content: space-around;
-}
 .img__footer{
     display: flex;
-    justify-content: center;
     
+    justify-content: space-around;
 }
+footer img{
+    margin-left: 100px;
+}
+

@@ -36,7 +36,7 @@ function carrouselBasic() {
     });
 }
 
-
+//Legende
 // 1
  function monterLegende() {
      let texte13 = document.querySelector(".texte__js1");
@@ -161,6 +161,7 @@ function descendreLegende5() {
     }).play;
 }
 
+// Carousel auto infi
 function carrousel6img() {
     var carr6 = document.querySelectorAll('.carou6');
     let d = 2000;
