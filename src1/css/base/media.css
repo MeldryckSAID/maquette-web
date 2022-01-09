@@ -16,3 +16,6 @@ figure {
     font-size: var(--text);
     color: var(--noir);
   }
+  .video{
+    margin-left: 60px;
+}
