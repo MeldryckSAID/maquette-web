@@ -6,14 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://unpkg.com/alpinejs@3.2.2/dist/cdn.min.js"></script>
 	<script src="https://animejs.com/lib/anime.min.js"></script>
-    <script src="src1/asset/fonction.js"></script>
-    <link rel="stylesheet" href="src1/css/style.css">
+    <script src="src/asset/fonction.js"></script>
+    <link rel="stylesheet" href="src/css/style.css">
     <title>Galerie</title>
+    <!-- pour mettre l'icone du logo -->
+    <link rel="logo icon" href="/public/head/logo.ico" type="image/x-icon">
+ 
 </head>
 <body>
     <div class="g"> 
     <header class="header"> 
-        <a class="header__start" href="acceng.html"><img src="icn/logo.svg" alt="Logo du site web"> </a>
+        <a class="header__start" href="acceng.html"><img src="public/icn/logo.svg" alt="Logo du site web"> </a>
          <div class="titre"><h1>POP-Féminism</h1></div>     
        
         <div class="nav-toogle"  onclick="document.documentElement.classList.toggle('menu-open')">
@@ -23,16 +26,16 @@
    
        <nav class="menu">
                <ul>
-                <li class="menu__item"><a class="menu__link" href="women.html">  Women and comics <img src="icn/type2.svg" alt="symole article"></a></li>
-                <li class="menu__item"><a class="menu__link" href="galeng.html">Gal Gadot <img src="icn/type2.svg" alt="symole article"></a></li>
-                <li class="menu__item"><a class="menu__link" href="Artwork.html">Artwork <img src="icn/type2.svg" alt="symole article"></a></li>
-                <li class="menu__item"><a class="menu__link" href="gallery.html">Galerie <img src="icn/camera1.svg" alt="camera pour faire pense a la Galerie"></a></li>
-                <li class="menu__item"><a class="menu__link" href="extraeng.html">Extra <img src="icn/Star1.svg" alt="étoile"></a></li>
-                <li class="menu__item"><a class="menu__link" href="about.html">about us <img src="icn/user.svg" alt="user"></a></li>
+                <li class="menu__item"><a class="menu__link" href="women.html">  Women and comics <img src="public/icn/type2.svg" alt="symole article"></a></li>
+                <li class="menu__item"><a class="menu__link" href="galeng.html">Gal Gadot <img src="ipublic/cn/type2.svg" alt="symole article"></a></li>
+                <li class="menu__item"><a class="menu__link" href="Artwork.html">Artwork <img src="public/icn/type2.svg" alt="symole article"></a></li>
+                <li class="menu__item"><a class="menu__link" href="gallery.html">Galerie <img src="public/icn/camera1.svg" alt="camera pour faire pense a la Galerie"></a></li>
+                <li class="menu__item"><a class="menu__link" href="extraeng.html">Extra <img src="public/icn/Star1.svg" alt="étoile"></a></li>
+                <li class="menu__item"><a class="menu__link" href="about.html">about us <img src="public/icn/user.svg" alt="user"></a></li>
                 </ul>
                <div class="menu__flag" >   
-                       <a href="index.html"> <img src="icn/fr.svg" alt="drapeau français"></a>
-                       <a href="acceng.html"><img src="icn/ang.svg" alt="drapeau anglais"></a>
+                       <a href="index.html"> <img src="public/icn/fr.svg" alt="drapeau français"></a>
+                       <a href="acceng.html"><img src="public/icn/ang.svg" alt="drapeau anglais"></a>
                </div>
               
           </nav> 
@@ -46,7 +49,7 @@
                     <div class="fig__img1"
                     x-on:mouseover="monterLegende()"
                     x-on:mouseleave="descendreLegende();">
-                <img src="/webp/galeri/larson.webp" alt="Brie Larson"></div>
+                <img src="public//webp/galeri/larson.webp" alt="Brie Larson"></div>
                  <p class="texte__js1">
                     Brie Larson
                 </p>
@@ -66,7 +69,7 @@
                     <div class="fig__img2"
                     x-on:mouseover="monterLegende2();"
                     x-on:mouseleave="descendreLegende2();">
-                    <img src="webp/galeri/marvel.webp" alt="Cap Marvel">
+                    <img src="public/webp/galeri/marvel.webp" alt="Cap Marvel">
                     </div>
                  <p class="texte__js2">
                     Carol Denvers
@@ -84,7 +87,7 @@
                     <div class="fig__img3"
                     x-on:mouseover="monterLegende3();"
                     x-on:mouseleave="descendreLegende3();">
-                    <img src="/webp/galeri/ww.webp" alt="Wonder Woman">
+                    <img src="public//webp/galeri/ww.webp" alt="Wonder Woman">
                     </div>
                      <p class="texte__js3">
                     Diana Prince
@@ -104,7 +107,7 @@
                     <div class="fig__img4"
                     x-on:mouseover="monterLegende4();"
                     x-on:mouseleave="descendreLegende4();">
-                <img src="/webp/galeri/eli.webp" alt="Elizabeth Holloway Marston">
+                <img src="public//webp/galeri/eli.webp" alt="Elizabeth Holloway Marston">
                 </div>
                 <p class="texte__js4">
                     Elizabeth Holloway Marston
@@ -124,7 +127,7 @@
                     <div class="fig__img5"
                     x-on:mouseover="monterLegende5();"
                     x-on:mouseleave="descendreLegende5();">
-                    <img src="/webp/galeri/gadot.webp" alt="Gal gadot">
+                    <img src="public//webp/galeri/gadot.webp" alt="Gal gadot">
                     </div>
                     <p class="texte__js5">
                         Gal Gadot
@@ -142,12 +145,12 @@
                 
                 <div class="carrousel6m">
                     <div class="images6">
-                         <img id="img1" class="carou6" src="webp/carou/carou6/lars.webp" alt="Brie Larson"> 
-                         <img id="img2" class="carou6" src="webp/carou/carou6/denver.webp" alt="Carol Denvers "> 
-                         <img id="img3" class="carou6" src="webp/carou/carou6/gadot.webp" alt="Gal Gadot">
-                         <img  id="img4" class="carou6" src="webp/carou/carou6/wowe.webp" alt="Wonder Woman"> 
-                         <img  id="img5" class="carou6" src="webp/carou/carou6/marier.webp" alt="Elizabeth Holloway Marston et William Moulton"> 
-                         <img  id="img6" class="carou6" src="webp/carou/carou6/widow.webp" alt="Black widow"> 
+                         <img id="img1" class="carou6" src="public/webp/carou/carou6/lars.webp" alt="Brie Larson"> 
+                         <img id="img2" class="carou6" src="public/webp/carou/carou6/denver.webp" alt="Carol Denvers "> 
+                         <img id="img3" class="carou6" src="public/webp/carou/carou6/gadot.webp" alt="Gal Gadot">
+                         <img  id="img4" class="carou6" src="public/webp/carou/carou6/wowe.webp" alt="Wonder Woman"> 
+                         <img  id="img5" class="carou6" src="public/webp/carou/carou6/marier.webp" alt="Elizabeth Holloway Marston et William Moulton"> 
+                         <img  id="img6" class="carou6" src="public/webp/carou/carou6/widow.webp" alt="Black widow"> 
                     </div>
                    
                 </div>
@@ -168,8 +171,8 @@
               <p>Meldryck Saïd C1</p>
               <a href="mailto:meldryck.said@edu.univ-fcomte.fr">meldryck.said@edu.univ-fcomte.fr</a>
               <div class="fimg">
-                  <img src="icn/facebook.svg" alt="https://facebook.com">
-                 <img src="icn/instagram.svg" alt="https://instagram.com"> </div>
+                  <img src="public/icn/facebook.svg" alt="https://facebook.com">
+                 <img src="public/icn/instagram.svg" alt="https://instagram.com"> </div>
               
               <h4>Mention légal</h4>
               <p>
@@ -179,7 +182,7 @@
          <a href="mmimontbeliard.com//">MMi de Montbéliard</a>
                 “
               </p>
-              <img class="img__footer" src="icn/logommi1.svg" alt="">
+              <img class="img__footer" src="public/icn/logommi1.svg" alt="">
              
               
         </footer>
